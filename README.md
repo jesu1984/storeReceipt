@@ -10,8 +10,11 @@
 - If an item is return will have positive entry as well as negative entry
 
 
-# how to run the test
+# How to run the test
 - clone the repo to your local drive
 - navigate to storeReceipt folder and run **npm install**
 - run **npm test**
 - Change StoreReceipt.json file if you want to test different scenario's
+
+# Technology used to write test
+- Mocha framework with Chai assert library running on Node.js
