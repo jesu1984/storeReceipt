@@ -6,8 +6,8 @@
 
 # Assumption:
 - we have created an Array of storeReceipt object with different scenarios. 
-- First Entry of receipt in Array will be 1st receipt of the day
-- If an item is return will have positive entry as well as negative entry
+- First Entry of receipt in Array will be 1st receipt of the day.
+- If an item is returned, it will have both positive and negative itemPrice under items of receipt.
 
 
 # How to run the test
