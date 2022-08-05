@@ -1,0 +1,21 @@
+{
+    "name": "storereceipt",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "author": "Jesan Badarpura",
+    "scripts": {
+        "mocha": "mocha",
+        "test": "mocha 'src/test/*.js' --timeout=60000",
+        "test-dependencies": "mocha 'test/**/Classes.js'",
+        "test-pin": "mocha functional-rest/ca/Pin.js --timeout=60000",
+        "test-xunit": "npm run test -- --reporter=xunit --reporter-options output=results/lastrun.xml"
+    },
+    "dependencies": {
+        "chai": "^4.2.0"
+    },
+    "devDependencies": {
+        "mocha": "^9.1.3",
+        "chai": "^4.2.0"
+    }
+}

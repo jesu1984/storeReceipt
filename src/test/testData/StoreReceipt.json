@@ -1,0 +1,61 @@
+[{
+    "storeId": "ABC123",
+    "pinCode": 90004,
+    "receiptNumber": 1,
+    "items" : [
+      { "itemId": "XYZ", "itemPrice": 9.8, "taxRate": 0.02, "discount": 0.25 },
+      { "itemId": "PQR", "itemPrice": 9.8, "taxRate": 0.02, "discount": 0.25 }
+    ],
+    "total": 14.994,
+    "itemsSold": 2,
+    "timeStamp": "8/3/2022, 10:10:01 AM"
+  },
+  {
+    "storeId": "ABC123",
+    "pinCode": 90004,
+    "receiptNumber": 2,
+    "items" : [
+      { "itemId": "XYZ", "itemPrice": 9.8, "taxRate": 0.02, "discount": 0.25 },
+      { "itemId": "PQR", "itemPrice": -5.2, "taxRate": 0.02, "discount": 0.25 },
+      { "itemId": "PQR", "itemPrice": 5.2, "taxRate": 0.02, "discount": 0.25 }
+    ],
+    "total": 7.497,
+    "itemsSold": 1,
+    "timeStamp": "8/3/2022, 10:55:53 AM"
+  },
+  {
+    "storeId": "ABC123",
+    "pinCode": 90004,
+    "receiptNumber": 3,
+    "items" : [
+      { "itemId": "XYZ", "itemPrice": 11.2, "taxRate": 0.4, "discount": 0.02 },
+      { "itemId": "PQR", "itemPrice": 10, "taxRate": 0.50, "discount": 0.25 }
+    ],
+    "total": 26.6164,
+    "itemsSold": 2,
+    "timeStamp": "8/3/2022, 6:09:53 PM"
+  },
+  {
+    "storeId": "ABC123",
+    "pinCode": 90004,
+    "receiptNumber": 4,
+    "items" : [
+      { "itemId": "XYZ", "itemPrice": 9.8, "taxRate": 0.02, "discount": 0.25 },
+      { "itemId": "PQR", "itemPrice": 10, "taxRate": 0.50, "discount": 0.25 }
+    ],
+    "total": 18.747,
+    "itemsSold": 2,
+    "timeStamp": "8/3/2022, 6:59:53 PM"
+  },
+  {
+    "storeId": "ABC123",
+    "pinCode": 90004,
+    "receiptNumber": 1,
+    "items" : [
+      { "itemId": "XYZ", "itemPrice": 11.2, "taxRate": 0.4, "discount": 0.02 },
+      { "itemId": "PQR", "itemPrice": 9.8, "taxRate": 0.2, "discount": 0.15 }
+    ],
+    "total": 25.3624,
+    "itemsSold": 2,
+    "timeStamp": "8/4/2022, 10:59:53 AM"
+  }]
